@@ -6,6 +6,39 @@ The parentheses shows which columns to be retrieved. For example, in question 3,
 
 Exercises with one table at a time
 
+
+## Groups
+
+Grupp1
+
+    1.2
+    1.8
+
+Grupp2
+
+    1.3
+    1.9
+
+Grupp3
+
+    1.4
+    1.10
+
+Grupp4
+
+    1.5
+    1.11
+
+Grupp5
+
+    1.6
+    1.12
+
+Grupp6
+
+    1.7
+    1.13
+    
 ## 1.1
 
 Run the script "Chinook - Script to create database.sql" to create the music database
