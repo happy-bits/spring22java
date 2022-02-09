@@ -38,7 +38,7 @@ Grupp6
 
     1.7
     1.13
-    
+
 ## 1.1
 
 Run the script "Chinook - Script to create database.sql" to create the music database
@@ -70,7 +70,7 @@ List all albums where the second letter of the title is "a" and the third letter
 
 ## 1.8
 
-List all albums where the first letter of the title is a vocal
+List all albums where the first letter of the title is a vowel
 
 ## 1.9
 
