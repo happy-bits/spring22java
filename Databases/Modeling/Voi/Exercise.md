@@ -30,7 +30,14 @@ Some scooters are in good shape, some are in bad shape. Some scooters need to ch
 
 ## Hints
 
+Look for the following in the text:
+- People
+- Things
+- Places
+- Events
+
 Sometimes it helps to add rows in your database to see if it's setup right
+
 
 ## Extra
 
