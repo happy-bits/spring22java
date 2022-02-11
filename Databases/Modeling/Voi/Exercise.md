@@ -1,4 +1,4 @@
-# Voi - SQL Modelling
+# Voi - SQL Modeling
 
 ## Intro
 
