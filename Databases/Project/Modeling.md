@@ -2,7 +2,7 @@
 
 ## Brainstorming
 
-Brainstorm ideas of companies to create a database for. Rry to find examples of tables and fields that can be included. 15 minutes.
+Brainstorm ideas of companies to create a database for (15 minutes). Try to find examples of tables and fields that can be included. 
 
 We meet and share our ideas.
 
