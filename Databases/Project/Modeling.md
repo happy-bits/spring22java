@@ -6,6 +6,23 @@ Brainstorm ideas of companies to create a database for (15 minutes). Try to find
 
 We meet and share our ideas.
 
+## Analyse
+
+Write down the answer to these questions:
+- How will the company make money?
+- What questions does the company want to answer when the database is done?
+
+In the Voi-example the answer of the first question could be "By hiring scooters to customers in a city". The answer to the second question could be:
+- Where are our scooters right now?
+- In which areas do most of our customers ride?
+- What is the status of our scooters?
+- How much money did we earn last month?
+- Which day of the week is most profitable?
+- How do our customers rate their rides?
+- How long does an ordinary ride take?
+
+This document can be helpful when modelling your database.
+
 ## Execute 
 
 Search for
