@@ -3,6 +3,10 @@
 1) Create tables for the examples below and add primary keys and foreign keys. Add some test data.
 2) Create SQL-statements (select ... join) that extract info from the tables
 
+If you have time:
+- Chinook 02
+- Create a database from the Voi exercise. Insert some values and join some tables (select ... join)
+
 Bonus: decide which column that should allow NULL
 
 ## Person - Passport
