@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        /* 100 poäng */
+        #demo {
+            color: blue;
+        }
+
+        /* 10 poäng */
+        .test {
+            color: green;
+        }
+
+        /* 1 poäng */
+        p {
+            color: gray;
+        }
+        
+        /* En zillion poäng */
+        /* color: pink !important; */
+
+        </style>    
+</head>
+
+<body>
+    <h1>Specificity</h1>
+
+    <p>
+        Reference: https://www.w3schools.com/css/css_specificity.asp
+    </p>
+    <p>
+        If there are two or more CSS rules that point to the same element, the selector with the highest specificity
+        value will "win", and its style declaration will be applied to that HTML element.
+    </p>
+
+    <p>
+        Think of specificity as a score/rank that determines which style declaration are ultimately applied to an
+        element.
+    </p>
+
+    <h3>How to calculate specificity?</h3>
+    <p>
+        Start at 0, add 100 for each ID value, add 10 for each class value (or pseudo-class or attribute selector), add 1 for each element selector or pseudo-element.
+    </p>
+
+    <p>
+        Details: 
+        <ul>
+            <li>Inline style gets a specificity value of 1000, and is always given the highest priority!</li>
+            <li>There is one exception to this rule: if you use the !important rule, it will even override inline styles</li>
+        </ul>
+        
+    </p>
+
+    <!-- 1000 poäng -->
+    <p id="demo" class="test" style="color: chocolate;">Hello World!</p>
+
+</html>
