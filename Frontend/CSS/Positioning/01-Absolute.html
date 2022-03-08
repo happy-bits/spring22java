@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<title>01-Absolute</title>
+<head>
+    <style>
+        body {
+            background-color: lightslategray;
+        }
+
+        div {
+            background-color: white;
+        }
+
+        div.relative {
+            position: relative;
+            height: 200px;
+            border: 5px solid purple;
+            margin:50px;
+        }
+
+        div.absolute {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            border: 5px solid plum
+        }
+
+        div.leftBottom {
+            left: 50px;
+            bottom: 10px;
+            background-color: bisque;
+        }
+
+        div.topRight {
+            top: 10px;
+            right: 10px;
+            background-color: bisque;
+        }
+
+        div.outside {
+            top: -30px;
+            right: -30px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Absolute positioning</h1>
+
+    <h2>Left bottom</h2>
+    <div class="relative">
+        <div class="absolute leftBottom">
+            I am positioned absolute
+        </div>
+    </div>
+
+    <h2>Top right</h2>
+    <div class="relative">
+        <div class="absolute topRight">
+            I am positioned absolute
+        </div>
+    </div>
+
+    <h2>Outside</h2>
+    <div class="relative">
+        <div class="absolute outside">
+            I am positioned absolute
+        </div>
+    </div>
+
+
+</body>
+
+</html>

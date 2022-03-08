@@ -1,0 +1,20 @@
+.side {
+    margin-left:15px;
+}
+
+.side ul li {
+    font-size: 14px;
+    line-height: 26px;
+    cursor:pointer;
+}
+
+.side ul li:hover {
+    background: #f4f4f4;
+}
+
+.side a {
+    text-decoration: none;
+    color:#262626;
+    padding-left:5px;
+    
+}

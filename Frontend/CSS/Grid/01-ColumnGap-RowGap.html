@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: #ddd;
+            font-family: Verdana;
+        }
+
+        h2{
+            margin-left:10px
+        }
+
+        .parent {
+            display: grid;
+            
+            border: solid 5px;
+            margin: 10px;
+            background: white;
+            
+        }
+
+        .child {
+            width: 100px;
+            height: 50px;
+            border: solid 5px cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>grid-template-areas: '. . .'</h2>
+    <div class="parent" style="grid-template-areas: '. . .'">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>
+
+    <h2>grid-template-areas: '. . . .'</h2>
+    <div class="parent" style="grid-template-areas: '. . . .'">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>    
+
+    <h2>justify-content:center</h2>
+    <div class="parent" style="grid-template-areas: '. . . .'; justify-content: center;">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>    
+
+    <h2>column-gap: 5px</h2>
+    <div class="parent" style="grid-template-areas: '. . . .'; justify-content: center;column-gap: 5px;">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>    
+
+    <h2>row-gap: 20px</h2>
+    <div class="parent" style="grid-template-areas: '. . . .'; justify-content: center;column-gap: 5px;row-gap:20px">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>      
+</body>
+
+</html>

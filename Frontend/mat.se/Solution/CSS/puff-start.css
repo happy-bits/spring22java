@@ -1,0 +1,45 @@
+.puff{
+    display: grid;
+    grid-template-areas: '. . . .';
+    /* insert code here */     
+}
+
+.puff li {
+    position: relative;
+    /* insert code here */     
+}
+
+.puff div{
+    padding-top: 17px;
+    border-color:transparent;
+}
+
+.puff li strong {
+    display: block;
+    font-size:14px;
+    color:#000;
+}
+
+.puff li span {
+    font-size:12px;
+    color:#222;
+}
+
+.puff li a {
+    display: flex;
+    text-decoration: none;
+}
+
+.puff li a img {
+    height:fit-content;
+}
+
+.puff .badge {
+    position:absolute;
+    /* insert code here */     
+}
+@media(max-width:1050px){
+    .puff{
+        /* insert code here */
+    }
+}
