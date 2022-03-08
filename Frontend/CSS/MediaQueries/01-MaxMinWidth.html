@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+        References
+
+        https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+    -->
+
+    <style>
+        
+        div {
+            border: solid 10px;
+            margin:20px;
+        }
+        
+        /* 0 => 400 */
+        @media (max-width: 400px) {
+            .large{
+                display: none;
+            }
+        }
+
+        /* 200 => infinity */
+        @media (min-width: 200px)  {
+            body {
+                background-color: blueviolet;
+            }
+        }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="small">
+            Small
+        </div>
+
+        <div class="large">
+            Large
+        </div>
+
+    </body>
+
+</html>

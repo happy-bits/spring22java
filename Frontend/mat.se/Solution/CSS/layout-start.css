@@ -1,0 +1,72 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.centered {
+    max-width:1450px;
+    margin:0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.header {
+    /* insert code */
+}
+
+.menu {
+    /* insert code */
+}
+
+.banner {
+    /* insert code */
+}
+
+.side {
+    /* insert code */
+}
+
+.content {
+    width: 100%;
+    margin-left:15px;
+    margin-right:15px;
+    padding-bottom: 50px;
+}
+
+/* height:1000px; */
+
+div {
+    border:solid 1px;
+}  
+
+/* insert code. If width is less than 800px then hide "menu" and "side" (use a media query)*/
+
+/** Continue  */
+
+ul {
+    margin-left:0;
+    padding-left:0;
+}
+
+li {
+    list-style:none;
+}
+
+
+h2 {
+    color: #242628;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
