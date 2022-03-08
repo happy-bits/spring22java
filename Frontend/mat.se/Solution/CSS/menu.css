@@ -1,0 +1,47 @@
+
+.menu {
+    height: 46px;
+    padding: 0 14px;
+    border-bottom: solid 1px #ddd;
+}
+
+.menu .centered{
+    /* max-width:1450px;  */
+    display:flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin-right:12px;
+}
+
+.menu li:last-child  {
+    margin-right:0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #727272;
+    line-height: 30px;
+    font-size: 16px;
+    padding:7px 5px;
+    font-weight: bold;
+}
+
+.menu li.selected a{
+    color: #000;
+    background: #e8e9e9;
+    border-radius: 15px;
+}
+
+.menu .minor li a{
+    font-weight: normal;
+    font-size:14px;
+}
+
