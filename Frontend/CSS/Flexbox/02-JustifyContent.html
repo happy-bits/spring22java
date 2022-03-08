@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: #ddd;
+            font-family: Verdana;
+        }
+        h2{
+            margin-left:10px
+        }
+
+        .parent {
+            display: flex;
+            height: 100px;
+            border: solid 5px;
+            margin: 10px;
+            background: white;
+        }
+
+        .child {
+            width: 100px;
+            height: 50px;
+            border: solid 5px cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Normal flexbox</h2>
+    <div class="parent" >
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+
+    <!-- Aligns flex items along the main axis (normalt till höger) -->
+    <h2>justify-content: center</h2>
+    <div class="parent" style="justify-content: center">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+
+    <h2>justify-content: end</h2>
+    <div class="parent" style="justify-content: end">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+
+
+    <h2>justify-content: space-around</h2>
+    <div class="parent" style="justify-content: space-around">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>    
+
+    <h2>justify-content: space-between</h2>
+    <div class="parent" style="justify-content: space-between">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>    
+
+    
+    <h2>justify-content: space-evenly</h2>
+    <div class="parent" style="justify-content: space-evenly">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>    
+</body>
+
+</html>
