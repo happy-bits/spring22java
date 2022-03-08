@@ -1,0 +1,60 @@
+
+.puff{
+    display: grid;
+    grid-template-areas: '. . . .';
+    column-gap:5px;
+    row-gap:5px;
+    
+}
+
+.puff li {
+    border: solid 1px rgb(203, 213, 219);
+    padding:10px 10px 15px 10px;
+    position: relative;
+}
+
+.puff div{
+    padding-top: 17px;
+    border-color:transparent;
+}
+
+.puff li strong {
+    display: block;
+    font-size:14px;
+    color:#000;
+}
+
+.puff li span {
+    font-size:12px;
+    color:#222;
+}
+
+.puff li a {
+    display: flex;
+    text-decoration: none;
+}
+
+.puff li a img {
+    height:fit-content;
+}
+
+.puff .badge {
+    background-color:#ff6002;
+    color:white;
+    text-transform: uppercase;
+    font-size: 11px;
+    position:absolute;
+    border-radius: 5px;
+    font-weight: bold;
+    padding:2px 6px;
+    left:67px;
+    top:7px
+
+}
+@media(max-width:1050px){
+    .puff{
+        grid-template-areas: 
+        '. .'
+        '. .';
+    }
+}
