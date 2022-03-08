@@ -1,0 +1,119 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 226px);  /*  226px 226px ... ett visst antal gånger */ 
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+}
+
+.products article {
+    position:relative;
+    padding:20px;
+    font-size:15px;
+    border:solid 1px rgb(203, 213, 219);
+}
+
+.products article .description {
+    height:300px;
+}
+
+.products article .price {
+    position:absolute;
+    top: 10px;
+    right:10px;
+
+    background-color:rgba(250, 56, 30, 0.9);
+    font-size:28px;
+    font-weight: bold;
+    width:72px;
+    height:72px;
+    color:white;
+    border-radius: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.products article .image {
+    height:180px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products article .campaign{
+    font-size:12px;
+    text-transform: uppercase;
+    color:#fa381e;
+    margin-top:8px;
+}
+
+
+.products article .cO2 {
+    display: flex;
+    color:rgb(54, 179, 158);
+    font-size:12px;
+}
+
+.products article .cO2 .number{
+    font-weight: bold;
+    padding-left:18px;
+    margin-right:5px;
+    background:url(../img/icon-green-leaf.png) left center no-repeat
+}
+
+.products article .cO2 .number:first-letter{
+    font-size:15px
+}
+
+.products article .cO2 .text{
+    align-self: flex-end;
+}
+
+.products article .compare {
+    color: rgb(139, 149, 154);
+    font-size:12px;   
+    margin-top:10px
+}
+
+.products article .buybuttons.oneOrMore .buybutton{
+    display:none
+}
+
+.products article .buybuttons:not(.oneOrMore) .minusplus{
+    display:none
+}
+
+.products article .buybuttons {
+    margin-top:10px;
+}
+
+.products article .buybuttons .buybutton {
+    margin-left:55px;
+    margin-right:55px;
+    display: block; 
+    align-items: center;    
+
+    background-color:rgb(54, 179, 158);
+    border-radius: 20px;
+    padding: 13px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor:pointer;
+}
+
+.products article .buybuttons .minusplus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 30px;
+}
+
+.products article .buybuttons .minusplus img{
+    cursor: pointer;
+}
