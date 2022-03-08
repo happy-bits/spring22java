@@ -1,0 +1,36 @@
+
+.menu {
+    height: 46px;
+    padding: 0 14px;
+    border-bottom: solid 1px #ddd;
+}
+
+.menu .centered{
+    display:flex;
+    /* insert code here */ 
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    /* insert code here */  
+}
+
+.menu li:last-child  {
+    /* insert code here */ 
+}
+
+.menu li a{
+    /* insert code here */ 
+}
+
+.menu li.selected a{
+    /* insert code here */ 
+}
+
+.menu .minor li a{
+    /* insert code here */ 
+}
+
