@@ -1,0 +1,31 @@
+body {
+    background-color: darkgray;
+    margin:20px;
+}
+
+body, 
+.region select
+{
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.region select {
+    display: block;
+    margin-bottom: 30px;
+    padding:7px;
+    width: 100%;
+}
+
+.region {
+    border:solid 4px;
+    padding:50px;
+    background-color: white;
+    display: inline-block;
+    width:700px;
+}
+
+.region .hide {
+    visibility: hidden;
+}
