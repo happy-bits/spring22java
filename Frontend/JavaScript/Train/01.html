@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link rel="stylesheet" href="01.css">
+</head>
+
+<body>
+
+    <article class="train">
+
+        <div class="way">
+            <label for="oneway">Enkel</label>
+            <input type="radio" id="oneway" name="ways" onchange="wayChange('oneway')">
+
+            <label for="roundtrip">Tur o retur</label>
+            <input type="radio" id="roundtrip" name="ways" onchange="wayChange('roundtrip')">
+        </div>
+
+        <input type="date" class="from" onchange="update()">
+        <input type="date" class="to"  onchange="update()">
+
+        <button onclick="makeChoice()">Ok</button>
+        <section class="result hide">
+            Du har valt ...
+        </section>
+
+    </article>
+
+    <script src="01-start.js"></script>
+</body>
+
+</html>

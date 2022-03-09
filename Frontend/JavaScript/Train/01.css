@@ -1,0 +1,50 @@
+body {
+    background-color: darkgray;
+    margin:20px;
+}
+
+body, 
+.train .from,
+.train .to,
+.train button
+{
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.train .from,
+.train .to,
+.train button{
+    margin-bottom:20px;
+    display: block;
+}
+
+.train button {
+    padding:2px 30px
+}
+.train label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.train {
+    border:solid 4px;
+    padding:50px;
+    background-color: white;
+    display: inline-block;
+    width:500px;
+}
+
+.train .way{
+    margin-bottom: 10px;
+}
+
+.train .hide{
+    visibility: hidden;
+}
+
+.train .result{
+    font-size:13px;
+    line-height: 16px;
+}
