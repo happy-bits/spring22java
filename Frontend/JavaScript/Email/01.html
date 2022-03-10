@@ -15,7 +15,7 @@
 
         <div class="group">
             <label>Email</label>
-            <input class="inputEmail" type="email" id="aaaa">
+            <input class="inputEmail" type="email">
         </div>
 
         <div class="group">
@@ -23,15 +23,24 @@
             <input class="inputEmailAgain" type="email">
         </div>
 
-        <button onclick="sendForm()">Ok</button>
+        <button class="okeyButton" onclick="doStuff()">Ok</button>
 
+        <button onclick="makeRed()">Make red</button>
+
+        <button onclick="copyText()">Copy text and make it red</button>
+        
+        <button onclick="upperify()">Upperify</button>
+        
         <section class="result hidden">
             You entered ....
         </section>
 
+        <input class="copiedField" type="text">
+
     </article>
 
-    <script src="01.js"></script>
+    <script src="01-thursday.js"></script>
+
 </body>
 
 </html>
