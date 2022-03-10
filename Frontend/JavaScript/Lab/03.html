@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .hideMe{
+            display: none;
+        }
+
+        input, button {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" class="text1" onkeyup="updateStuff()">
+    <input type="text" class="text2">
+    <button onclick="erase()">Erase</button>
+    <input class="showHide" checked type="checkbox" onclick="checkboxClicked()">
+    <div class="result">
+    </div>
+
+
+    <script src="03.js"></script>
+</body>
+
+</html>
