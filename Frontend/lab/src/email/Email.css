@@ -1,0 +1,50 @@
+body {
+    background-color: darkgray;
+}
+
+body, 
+.email input,
+.email button{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.email {
+
+    border:solid 4px;
+    padding:30px;
+    background-color: white;
+    display: inline-block;
+    width: 350px;
+}
+
+.email .hidden {
+    display: none;
+}
+
+.email label, 
+.email button,
+.email section {
+    display: block;
+}
+
+.email .group {
+    margin-bottom:20px;
+}
+
+.email .result {
+    margin-top:10px;
+}
+
+.email .happy {
+    color: green;
+}
+
+.email .sad {
+    color: red;
+}
+
+.email .invalid {
+    border-color:red;
+}
