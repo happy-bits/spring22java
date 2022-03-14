@@ -15,7 +15,6 @@ Kör för att installera
 Sedan
 
     cd lab
-    code .
 
 Starta appen
     
