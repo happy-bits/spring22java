@@ -2,6 +2,7 @@ import { useState } from "react"
 
 function Simple(param) {
 
+    console.log(param)
     const [counter, setCounter] = useState(123);
 
     const header = param.header === undefined ? "Default" : param.header
@@ -29,6 +30,7 @@ function Simple(param) {
         <div>
             <h1>{header}</h1>
             <p>{param.valuetext}: {counter}</p>
+            <p>Färg: {param.color}</p>
             <button onClick={setTo100}>Set to 100</button>
             <button onClick={addOne}>Add one</button>
             <button onClick={removeOne}>Remove one</button>
