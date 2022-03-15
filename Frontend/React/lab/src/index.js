@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 //import Simple05 from './simple/Simple05'
 //import Movie from './movie/Movie04'
 
-import Train from './train/Train'
+import Train from './train/Train05'
 
 ReactDOM.render(
   <React.StrictMode>
